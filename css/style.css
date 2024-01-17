@@ -1,5 +1,11 @@
 body, html {
+    color: #2c3e50;
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1024px;
 }
