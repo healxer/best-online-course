@@ -1,3 +1,5 @@
+/* COMMON */
+
 body, html {
     color: #2c3e50;
     font-family: 'Roboto', sans-serif;
@@ -9,6 +11,32 @@ body, html {
     margin: 0 auto;
     max-width: 1024px;
 }
+
+.cta-button {
+    min-width: 150px;
+    background-color: #f1c40f;
+    border-radius: 4px;
+    color: #fff;
+    border: none;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    transition: background-color, 0.5, ease-in-out; 
+    cursor: pointer;
+}
+
+.cta-button:hover {
+    background-color: #ffda46;
+}
+
+.cta-button--big {
+    min-width: 200px;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+/* END OF COMMON */
+
+/* NAV */
 
 .nav {
     background-color: #2c3e50;
@@ -43,3 +71,28 @@ body, html {
 .nav__link--active {
     background-color: rgb(59, 76, 93);
 }
+
+/* END OF NAV */
+
+/* HERO */
+
+.hero {
+    background-image: url(../img/hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.hero-info {
+    color: #fff;
+    text-align: center;
+}
+
+
+/* END OF HERO */   
