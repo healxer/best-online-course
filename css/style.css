@@ -40,6 +40,6 @@ body, html {
     background-color: #34495e;
 }
 
-.nav__link:active {
+.nav__link--active {
     background-color: rgb(59, 76, 93);
 }
