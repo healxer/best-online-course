@@ -12,6 +12,10 @@ body, html {
     max-width: 1024px;
 }
 
+a {
+    text-decoration: none;
+}
+
 .cta-button {
     min-width: 150px;
     background-color: #f1c40f;
@@ -96,3 +100,22 @@ body, html {
 
 
 /* END OF HERO */   
+
+/* FEATURE */
+
+.features {
+    display: flex;
+    margin-top: 2rem;
+}
+
+.feature {
+    flex-basis: 33.33333%;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.feature__icon {
+    width: 3rem;
+}
+
+/* END OF FEATURE */
