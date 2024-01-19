@@ -178,63 +178,73 @@
         </div>
 
     </div>
-    <div id="contact">
 
-        <div>
-            <h2>Have questions?</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet provident libero incidunt possimus
-                nulla atque totam quidem reiciendis eos harum temporibus tenetur maxime quaerat, suscipit ab
-                eum, quae officiis consectetur.</p>
-            <hr />
-            <div>
-                <img
-                    src="./img/address.svg"
-                    alt="Address icon"
-                />
-                <p>1717 Harrison St, San Francisco, CA 94103, USA</p>
+    <div
+        class="contact"
+        id="contact"
+    >
+
+        <div class="contact__container">
+
+            <div class="contact__text">
+                <h2 class="contact__header">Have questions?</h2>
+                <p class="contact__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet provident
+                    libero incidunt possimus
+                    nulla atque totam quidem reiciendis eos harum temporibus tenetur maxime quaerat, suscipit ab
+                    eum, quae officiis consectetur.</p>
+                <hr class="contact__rule" />
+                <div class="contact__address-line">
+                    <img
+                        class="contact__address-icon"
+                        src="./img/address-icon.svg"
+                        alt="Address icon"
+                    />
+                    <p>1717 Harrison St, San Francisco, CA 94103, USA</p>
+                </div>
+
+                <div class="contact__address-line">
+                    <img
+                        class="contact__address-icon"
+                        src="./img/phone-icon.svg"
+                        alt="Phone icon"
+                    />
+                    <p>123-123-1234</p>
+                </div>
             </div>
 
-            <div>
-                <img
-                    src="./img/phone.svg"
-                    alt="Phone icon"
-                />
-                <p>123-123-1234</p>
+            <div class="contact__form">
+
+                <form action="">
+
+                    <div>
+                        <div>
+                            <input
+                                type="email"
+                                name="email"
+                                placeholder="Email Address"
+                            />
+                        </div>
+                        <div>
+                            <input
+                                type="text"
+                                name="full-name"
+                                placeholder="Full Name"
+                            />
+                        </div>
+                    </div>
+                    <div>
+                        <textarea
+                            name="message"
+                            rows="10"
+                            placeholder="Message"
+                        ></textarea>
+                    </div>
+                    <div>
+                        <button>Send</button>
+                    </div>
+
+                </form>
             </div>
-
-        </div>
-        <div>
-
-            <form action="">
-
-                <div>
-                    <div>
-                        <input
-                            type="email"
-                            name="email"
-                            placeholder="Email Address"
-                        />
-                    </div>
-                    <div>
-                        <input
-                            type="text"
-                            name="full-name"
-                            placeholder="Full Name"
-                        />
-                    </div>
-                </div>
-                <div>
-                    <textarea
-                        name="message"
-                        rows="10"
-                        placeholder="Message"
-                    ></textarea>
-                </div>
-                <div>
-                    <button>Send</button>
-                </div>
-
-            </form>
         </div>
 
     </div>
