@@ -290,11 +290,11 @@ a {
 
 .copyright {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     color: white;
     background-color: #16222f;
     text-align: center;
-    padding: 1rem;
+    padding: 0.7rem;
     font-size: 13px;
 }
 
