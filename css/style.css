@@ -18,7 +18,7 @@ a {
 }
 
 .cta-button {
-    min-width: 180px;
+    min-width: 170px;
     background-color: #f1c40f;
     border-radius: px;
     color: #fff;
@@ -246,11 +246,17 @@ a {
 /* COPYRIGHT */
 
 .copyright {
+    display: flex;
+    justify-content: center;
     color: white;
     background-color: #16222f;
     text-align: center;
     padding: 1rem;
-    font-size: 14px;
+    font-size: 13px;
+}
+
+.copyright__text {
+    margin: 0 5px;
 }
 
 /* END OF COPYRIGHT */
