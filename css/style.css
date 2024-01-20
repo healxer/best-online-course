@@ -246,3 +246,15 @@ a {
 }
 
 /* END OF FOOTER */
+
+/* COPYRIGHT */
+
+.copyright {
+    color: white;
+    background-color: #16222f;
+    text-align: center;
+    padding: 1rem;
+    font-size: 14px;
+}
+
+/* END OF COPYRIGHT */
