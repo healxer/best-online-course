@@ -226,11 +226,16 @@
 
                 <div class="contact__form">
 
-                    <form action="">
+                    <form
+                        class="contact-form"
+                        action="https://form-data-to-html-table.examples.coderoad.pl/"
+                        method="POST"
+                    >
 
                         <div>
                             <div>
                                 <input
+                                    class="contact-form__input contact-form__input--fullwidth contact-form__input--transparent"
                                     type="email"
                                     name="email"
                                     placeholder="Email Address"
@@ -238,21 +243,23 @@
                             </div>
                             <div>
                                 <input
+                                    class="contact-form__input contact-form__input--fullwidth contact-form__input--transparent"
                                     type="text"
-                                    name="full-name"
+                                    name="name"
                                     placeholder="Full Name"
                                 />
                             </div>
                         </div>
                         <div>
                             <textarea
+                                class="contact-form__input contact-form__input--fullwidth contact-form__input--transparent"
                                 name="message"
                                 rows="10"
                                 placeholder="Message"
                             ></textarea>
                         </div>
                         <div>
-                            <button>Send</button>
+                            <button class="contact-form__submit">Send</button>
                         </div>
 
                     </form>

@@ -20,12 +20,12 @@ a {
 .cta-button {
     min-width: 170px;
     background-color: #f1c40f;
-    border-radius: px;
+    border-radius: 4px;
     color: #fff;
     border: none;
     padding: 0.5rem;
     font-size: 1.3rem;
-    transition: background-color, 0.9s;
+    transition: background-color 0.5s ease-in-out;
     cursor: pointer;
 }
 
@@ -224,6 +224,49 @@ a {
     display: flex;
 }
 
+.contact-form__input {
+    color: white;
+    min-height: 2rem;
+    border-radius: 4px;
+    border: 1px solid white;
+    margin-bottom: 1rem;
+    padding-left: 0.5rem;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.contact-form__input::placeholder{
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.contact-form__input--fullwidth {
+    width: 100%;
+}
+
+.contact-form__input--transparent {
+    background-color: transparent;
+}
+
+.contact-form__submit {
+    min-width: 100px;
+    border: none;
+    background-color: #2ecc71;
+    padding: 0.5rem;
+    border-radius: 4px;
+    color: white;
+    font-size: 1.2rem;
+
+    cursor: pointer;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.contact-form__submit--fullwidth{
+    width: 100%
+}
+
+.contact-form__submit:hover {
+    background-color: #27ae60;
+}
 
 /* END OF CONTACT */
 
