@@ -25,12 +25,13 @@ a {
     border: none;
     padding: 0.5rem;
     font-size: 1.3rem;
-    transition: background-color, 0.5, ease-in-out;
+    transition: background-color, 0.9s;
     cursor: pointer;
 }
 
 .cta-button:hover {
-    background-color: #ffda46;
+    background-color: #fff;
+    color: #edcc48;
 }
 
 /* END OF COMMON */
