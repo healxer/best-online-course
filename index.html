@@ -24,6 +24,11 @@
 
     <link
         rel="stylesheet"
+        href="./css/grid.css"
+    >
+
+    <link
+        rel="stylesheet"
         href="./css/style.css"
     />
 
@@ -36,46 +41,56 @@
         class="nav"
         id="nav"
     >
-        <nav>
-            <div class="container">
-                <ul class="nav__links">
-                    <li class="nav__link-item nav__link--active">
-                        <a
-                            class="nav__link"
-                            href="./#hero"
-                        >
-                            Home
-                        </a>
-                    </li>
+        <nav class="container container--fixed">
+            <ul class="nav__links nav__links--active">
+                <li class="nav__link-item nav__link-menu">
+                    <a
+                        class="nav__link"
+                        href="#"
+                    >
+                        <img
+                            class="nav__menu-icon"
+                            src="./img/menu-icon.svg"
+                            alt="menu icon"
+                        />
+                    </a>
+                </li>
+                <li class="nav__link-item nav__link--active">
+                    <a
+                        class="nav__link"
+                        href="./#hero"
+                    >
+                        Home
+                    </a>
+                </li>
 
-                    <li class="nav__link-item">
-                        <a
-                            class="nav__link"
-                            href="./#features"
-                        >
-                            Features
-                        </a>
-                    </li>
+                <li class="nav__link-item">
+                    <a
+                        class="nav__link"
+                        href="./#features"
+                    >
+                        Features
+                    </a>
+                </li>
 
-                    <li class="nav__link-item">
-                        <a
-                            class="nav__link"
-                            href="./#testimonials"
-                        >
-                            Testimonials
-                        </a>
-                    </li>
+                <li class="nav__link-item">
+                    <a
+                        class="nav__link"
+                        href="./#testimonials"
+                    >
+                        Testimonials
+                    </a>
+                </li>
 
-                    <li class="nav__link-item">
-                        <a
-                            class="nav__link"
-                            href="./#contact"
-                        >
-                            Contact
-                        </a>
-                    </li>
-                </ul>
-            </div>
+                <li class="nav__link-item">
+                    <a
+                        class="nav__link"
+                        href="./#contact"
+                    >
+                        Contact
+                    </a>
+                </li>
+            </ul>
         </nav>
     </header>
 
@@ -93,10 +108,10 @@
         </section>
 
         <section
-            class="features container"
+            class="features container container--fixed"
             id="features"
         >
-            <div class="feature">
+            <div class="feature col xs-12 md-4">
                 <img
                     class="feature__icon"
                     src="./img/globe.svg"
@@ -110,7 +125,7 @@
                 </p>
             </div>
 
-            <div class="feature">
+            <div class="feature col xs-12 md-4">
                 <img
                     class="feature__icon"
                     src="./img/teacher.svg"
@@ -124,7 +139,7 @@
                 </p>
             </div>
 
-            <div class="feature">
+            <div class="feature col xs-12 md-4">
                 <img
                     class="feature__icon"
                     src="./img/money.svg"
@@ -145,8 +160,8 @@
             id="about"
         >
 
-            <div class="about__container container">
-                <div class="about__text">
+            <div class="about__container container container--fixed">
+                <div class="about__text col xs-12 md-6">
                     <h2 class="about__header">Our team - meet people behind the course!</h2>
                     <p class="about__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex
                         perspiciatis
@@ -155,7 +170,7 @@
                         voluptatum porro beatae, tempore rem magnam.</p>
                 </div>
 
-                <div class="about__image">
+                <div class="about__image col xs-12 md-6">
                     <div class="about__image-container"></div>
                 </div>
             </div>
@@ -163,7 +178,7 @@
         </section>
 
         <section
-            class="testimonials container"
+            class="testimonials container container--fixed"
             id="testimonials"
         >
             <div class="testimonial-arrow">
@@ -206,9 +221,9 @@
             id="contact"
         >
 
-            <div class="contact__container">
+            <div class="contact__container container container--fixed">
 
-                <div class="contact__text">
+                <div class="contact__text col xs-12 md-6">
                     <h2 class="contact__header">Have questions?</h2>
                     <p class="contact__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet
                         provident
@@ -235,7 +250,7 @@
                     </div>
                 </div>
 
-                <div class="contact__form">
+                <div class="contact__form col xs-12 md-6">
 
                     <form
                         class="contact-form"
@@ -287,8 +302,16 @@
             class="footer"
             id="footer"
         >
-            <h3 class="footer__header">The best online course in the market!</h3>
-            <button class="cta-button">Buy now!</button>
+            <div class="container container--fixed">
+
+                <div class="col xs-12 md-6">
+                    <h3 class="footer__header">The best online course in the market!</h3>
+                </div>
+
+                <div class="col xs-12 md-6">
+                    <button class="cta-button">Buy now!</button>
+                </div>
+            </div>
         </section>
 
         <section class="copyright">
